@@ -1,21 +1,3 @@
-/* function random(){
-    let ran = Math.floor(Math.random()*6)+1
-    let output = document.getElementById("output")
-    output.textContent = ran
-    output.innerHTML = ran
-} */
-
-/* function getinput(){
-    let input = document.querySelector("#inp").value
-    let output = document.querySelector("#output")
-    output.innerHTML = input
- } */
-//  function getinput(){
-//     let input = document.querySelector("#inp").value
-//     let inches = input / 2.54
-//     let output = document.querySelector("#output")
-//     output.innerHTML = input+" CM = "+inches+" Inches"
-
 function convert() {
     let fromUnit = document.getElementById('value1').value;
     let toUnit = document.getElementById('value2').value;
